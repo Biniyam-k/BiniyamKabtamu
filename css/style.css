@@ -231,3 +231,186 @@ header .follow a:hover{
     padding: .5rem 0;
 }
 
+.about .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.about .row-1 .image{
+    flex:  1 1 20rem;
+} 
+
+.about .row-1 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+
+.about .row-1 .content{
+    flex: 1 1 60rem;
+}
+
+.about .row-1 .content h3{
+    color: #333;
+    font-size: 3.5rem;
+}
+
+.about .row-1 .content p{
+    color: #666;
+    font-size: 1.7rem;
+    padding: .5rem 0;
+}
+
+.about .row-1 .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.about .row-1 .content .box-container .box{
+    flex:  1 1 20rem;
+}
+
+.about .row-1 .content .box-container .box span{
+    color: var(--main-color);
+}
+
+.about .row-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.about .row-2 .skills{
+    flex:  1 1 40rem;
+}
+
+.about .row-2 .skills .progress{
+    padding: 1rem 0;
+}
+
+.about .row-2 .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.7rem;
+    color: #111;
+    font-weight: 400;
+}
+
+.about .row-2 .skills .progress .bar{
+    width: 100%;
+    background: #ccc;
+    overflow: hidden;
+    height: 1rem;
+    border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;
+    background: var(--main-color);
+    border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 95%;
+}
+
+.about .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 75%;
+}
+
+.about .row-2 .skills .progress:nth-child(3) .bar span{
+    width: 80%;
+}
+
+.about .row-2 .skills .progress:nth-child(4) .bar span{
+    width: 90%;
+}
+
+
+.about .row-2 .box-container{
+    flex: 1 1 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.about .row-2 .box-container .box{
+   flex: 1 1 15rem; 
+   background: #fff;
+   padding: 2rem;
+   border-radius: .5rem;
+   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.about .row-2 .box-container .box h3{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+
+.about .row-2 .box-container .box p{
+    color: #666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+.experience .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience .box-container .box{
+    position: relative;
+    flex: 1 1 33rem;
+    border-left: .2rem solid var(--main-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.experience .box-container .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+
+.experience .box-container .box .content{
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
+}
+
+.experience .box-container .box .content span{
+    color: #fff;
+    font-size: 1.7rem;
+    background: var(--main-color);
+    border-radius: 50rem;
+    padding: .4rem 1rem;
+}
+
+.experience .box-container .box .content h3{
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: #111;
+}
+
+.experience .box-container .box .content p{
+    font-size: 1.5rem;
+    color: #666;
+}
+
